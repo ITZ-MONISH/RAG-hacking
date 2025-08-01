@@ -18,3 +18,4 @@ def completion_prompt(prompt):
     )
     # For non-streaming, the content is in response.choices[0].message.content
     print(response.choices[0].message.content, end="", flush=True)
+    
